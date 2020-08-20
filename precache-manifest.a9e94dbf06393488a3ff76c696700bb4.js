@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7fa802d4a86f34a7573dc1ea655d0c9",
+    "revision": "edf2d240676d00106c3819d79887e6c1",
     "url": "/nbaratings-web-react/index.html"
   },
   {
-    "revision": "06a5f52495f53f6de321",
+    "revision": "3b513952635e8253bf18",
     "url": "/nbaratings-web-react/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nbaratings-web-react/static/js/2.648ba25d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06a5f52495f53f6de321",
-    "url": "/nbaratings-web-react/static/js/main.b820567f.chunk.js"
+    "revision": "3b513952635e8253bf18",
+    "url": "/nbaratings-web-react/static/js/main.844b6755.chunk.js"
   },
   {
     "revision": "91916d880e5b65aeafac",

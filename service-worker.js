@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nbaratings-web-react/precache-manifest.6120f376b5a58e2da7afef7e272758d2.js"
+  "/nbaratings-web-react/precache-manifest.a9e94dbf06393488a3ff76c696700bb4.js"
 );
 
 self.addEventListener('message', (event) => {
