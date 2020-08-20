@@ -50,6 +50,7 @@ function Table({ columns, data }) {
 
   return (
     <>
+    <h1>Test heading :)</h1>
       <table {...getTableProps()}>
         <thead>
           <h1>I'm in the head</h1>
