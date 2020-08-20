@@ -52,6 +52,7 @@ function Table({ columns, data }) {
     <>
       <table {...getTableProps()}>
         <thead>
+          <h1>I'm in the head</h1>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map(column => (
