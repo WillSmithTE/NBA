@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useTable, useSortBy } from 'react-table'
 
 import makeData from './makeData'
-
+let i = 0;
 const Styles = styled.div`
   padding: 1rem;
 
@@ -48,15 +48,19 @@ function Table({ columns, data }) {
     useSortBy
   )
 
+  console.error(++i);
+
   return (
     <>
     <h1>Test heading :)</h1>
       <table {...getTableProps()}>
         <thead>
-          <h1>I'm in the head</h1>
-          {headerGroups.map(headerGroup => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map(column => (
+          <tr>{JSON.stringify(headerGroups[0], null, 2)}</tr>
+          {headerGroups.map(headerGroup => {
+            return <tr {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map(column => {
+                console.error({column})
+                return (
                 // Add the sorting props to control sorting. For this example
                 // we can add them into the header props
                 <th {...column.getHeaderProps(column.getSortByToggleProps())}>
@@ -70,9 +74,10 @@ function Table({ columns, data }) {
                       : ''}
                   </span>
                 </th>
-              ))}
+              );
+                    })}
             </tr>
-          ))}
+          })}
         </thead>
         <tbody {...getTableBodyProps()}>
           {rows.map(
@@ -98,9 +103,6 @@ function Table({ columns, data }) {
 function TeamsTable() {
   const columns = React.useMemo(
     () => [
-      {
-        Header: 'Teams',
-        columns: [
           {
             Header: 'Team',
             accessor: 'team',
@@ -122,8 +124,6 @@ function TeamsTable() {
             accessor: 'rating2k',
           },
         ],
-      },
-    ],
     []
   )
 

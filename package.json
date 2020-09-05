@@ -1,5 +1,4 @@
 {
-  "homepage": "http://willsmithte.github.io/nbaratings-web-react",
   "name": "nbaratings-web-react",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +11,11 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-table": "^7.5.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "prop-types": "latest",
+    "clsx": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/core": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
