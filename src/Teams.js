@@ -16,7 +16,7 @@ async function getTeams() {
 const headCells = [
     {id: 'team', label: 'Team'},
     {id: 'winEfficiency', label: 'Win Efficiency'},
-    {id: 'expectedQuality19_20', label: '2019-20 Value'},
+    {id: 'expectedQuality19_20', label: 'Expected 2019-20 success'},
     {id: 'wins', label: 'Wins'},
     {id: 'rating2k', label: 'Current Rating'},
 ];
