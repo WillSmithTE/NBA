@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/nbaratings-web-react/static/css/main.3908178f.chunk.css",
-    "main.js": "/nbaratings-web-react/static/js/main.cb79057c.chunk.js",
-    "main.js.map": "/nbaratings-web-react/static/js/main.cb79057c.chunk.js.map",
+    "main.js": "/nbaratings-web-react/static/js/main.424e518f.chunk.js",
+    "main.js.map": "/nbaratings-web-react/static/js/main.424e518f.chunk.js.map",
     "runtime-main.js": "/nbaratings-web-react/static/js/runtime-main.71778feb.js",
     "runtime-main.js.map": "/nbaratings-web-react/static/js/runtime-main.71778feb.js.map",
-    "static/js/2.ad2b2e0e.chunk.js": "/nbaratings-web-react/static/js/2.ad2b2e0e.chunk.js",
-    "static/js/2.ad2b2e0e.chunk.js.map": "/nbaratings-web-react/static/js/2.ad2b2e0e.chunk.js.map",
+    "static/js/2.c8779354.chunk.js": "/nbaratings-web-react/static/js/2.c8779354.chunk.js",
+    "static/js/2.c8779354.chunk.js.map": "/nbaratings-web-react/static/js/2.c8779354.chunk.js.map",
     "index.html": "/nbaratings-web-react/index.html",
-    "precache-manifest.0ae5b696f4fe7b46b768aeb9e7f59c1c.js": "/nbaratings-web-react/precache-manifest.0ae5b696f4fe7b46b768aeb9e7f59c1c.js",
+    "precache-manifest.69db24cee619cbe42e3d7e89e60c8a47.js": "/nbaratings-web-react/precache-manifest.69db24cee619cbe42e3d7e89e60c8a47.js",
     "service-worker.js": "/nbaratings-web-react/service-worker.js",
     "static/css/main.3908178f.chunk.css.map": "/nbaratings-web-react/static/css/main.3908178f.chunk.css.map",
-    "static/js/2.ad2b2e0e.chunk.js.LICENSE.txt": "/nbaratings-web-react/static/js/2.ad2b2e0e.chunk.js.LICENSE.txt"
+    "static/js/2.c8779354.chunk.js.LICENSE.txt": "/nbaratings-web-react/static/js/2.c8779354.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.71778feb.js",
-    "static/js/2.ad2b2e0e.chunk.js",
+    "static/js/2.c8779354.chunk.js",
     "static/css/main.3908178f.chunk.css",
-    "static/js/main.cb79057c.chunk.js"
+    "static/js/main.424e518f.chunk.js"
   ]
 }
