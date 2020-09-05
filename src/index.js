@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Demo from './demo';
+import Teams from './Teams';
 
 ReactDOM.render(
   <React.StrictMode>
-    < Demo/>
+    < Teams/>
   </React.StrictMode>,
   document.getElementById('root')
 );
