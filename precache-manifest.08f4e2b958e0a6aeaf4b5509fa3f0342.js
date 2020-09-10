@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3225f434c698a3994a867654e6fc7ad",
+    "revision": "8f9e11fca6425b38056c78eaadccd62c",
     "url": "/nbaratings-web-react/index.html"
   },
   {
-    "revision": "b4c3c7bfe38e9706bc04",
+    "revision": "362a83c69db9af3f0917",
     "url": "/nbaratings-web-react/static/css/main.3908178f.chunk.css"
   },
   {
-    "revision": "27e2bbcf56fd3494ea41",
-    "url": "/nbaratings-web-react/static/js/2.c8779354.chunk.js"
+    "revision": "e6adc3d202afa5b119a9",
+    "url": "/nbaratings-web-react/static/js/2.897789c0.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/nbaratings-web-react/static/js/2.c8779354.chunk.js.LICENSE.txt"
+    "url": "/nbaratings-web-react/static/js/2.897789c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4c3c7bfe38e9706bc04",
-    "url": "/nbaratings-web-react/static/js/main.424e518f.chunk.js"
+    "revision": "362a83c69db9af3f0917",
+    "url": "/nbaratings-web-react/static/js/main.3d922f66.chunk.js"
   },
   {
     "revision": "91916d880e5b65aeafac",
