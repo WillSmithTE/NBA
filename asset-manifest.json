@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NBA/static/css/main.3908178f.chunk.css",
-    "main.js": "/NBA/static/js/main.fd8165fe.chunk.js",
-    "main.js.map": "/NBA/static/js/main.fd8165fe.chunk.js.map",
+    "main.js": "/NBA/static/js/main.e550f07f.chunk.js",
+    "main.js.map": "/NBA/static/js/main.e550f07f.chunk.js.map",
     "runtime-main.js": "/NBA/static/js/runtime-main.ffa2a140.js",
     "runtime-main.js.map": "/NBA/static/js/runtime-main.ffa2a140.js.map",
     "static/js/2.19276702.chunk.js": "/NBA/static/js/2.19276702.chunk.js",
     "static/js/2.19276702.chunk.js.map": "/NBA/static/js/2.19276702.chunk.js.map",
     "index.html": "/NBA/index.html",
-    "precache-manifest.e96d21d1317a24c7cff21fa09aa58cd8.js": "/NBA/precache-manifest.e96d21d1317a24c7cff21fa09aa58cd8.js",
+    "precache-manifest.2efa32eab700511294fb60e980addf89.js": "/NBA/precache-manifest.2efa32eab700511294fb60e980addf89.js",
     "service-worker.js": "/NBA/service-worker.js",
     "static/css/main.3908178f.chunk.css.map": "/NBA/static/css/main.3908178f.chunk.css.map",
     "static/js/2.19276702.chunk.js.LICENSE.txt": "/NBA/static/js/2.19276702.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ffa2a140.js",
     "static/js/2.19276702.chunk.js",
     "static/css/main.3908178f.chunk.css",
-    "static/js/main.fd8165fe.chunk.js"
+    "static/js/main.e550f07f.chunk.js"
   ]
 }
