@@ -11,6 +11,14 @@ import TablePagination from '@material-ui/core/TablePagination';
 import {makeStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
+const ROWS_PER_PAGE_OPTIONS = {
+  FIVE: 5,
+  TEN: 10,
+  THIRTY: 30,
+  ONE_HUNDRED: 100,
+  FIVE_HUNDRED: 500
+};
+
 const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
@@ -35,13 +43,13 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function EnhancedTable({orderBy: orderByProp, rows, keyProp, headCells}) {
+export default function EnhancedTable({orderBy: orderByProp, rows, keyProp, headCells, title}) {
     const classes = useStyles();
     const [order, setOrder] = React.useState('desc');
     const [orderBy, setOrderBy] = React.useState(orderByProp);
     const [page, setPage] = React.useState(0);
     const [dense/*, setDense*/] = React.useState(false);
-    const [rowsPerPage, setRowsPerPage] = React.useState(30);
+    const [rowsPerPage, setRowsPerPage] = React.useState(ROWS_PER_PAGE_OPTIONS.THIRTY);
 
     const handleRequestSort = (event, property) => {
         const isAsc = orderBy === property && order === 'asc';
@@ -67,7 +75,7 @@ export default function EnhancedTable({orderBy: orderByProp, rows, keyProp, head
     return (
         <div className={classes.root}>
             <Paper className={classes.paper}>
-                <EnhancedTableToolbar/>
+                <EnhancedTableToolbar title={title}/>
                 <TableContainer>
                     <Table
                         className={classes.table}
@@ -106,7 +114,7 @@ export default function EnhancedTable({orderBy: orderByProp, rows, keyProp, head
                     </Table>
                 </TableContainer>
                 <TablePagination
-                    rowsPerPageOptions={[5, 10, 30]}
+                    rowsPerPageOptions={Object.values(ROWS_PER_PAGE_OPTIONS)}
                     component="div"
                     count={rows.length}
                     rowsPerPage={rowsPerPage}
